@@ -14,3 +14,4 @@ el nombre de el proyecto se llama "lluvia de ideas"
 
    bash
    git clone https://github.com/tu-usuario/tu-repositorio.git
+
