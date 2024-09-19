@@ -1,12 +1,12 @@
 "use strict";
-// Selecciona el elemento input y el elemento de texto de debounce del DOM
+
 const input = document.querySelector("input");
 const textoDebounce = document.querySelector("#debounce");
-// Agrega un event listener al elemento input para el evento 'input'
+
 if (input) {
     input.addEventListener("input", (e) => {
         const target = e.target;
-        // Asegura que el target sea un HTMLInputElement antes de acceder a su valor
+       
         if (target) {
             valorDebounce(target.value);
         }
